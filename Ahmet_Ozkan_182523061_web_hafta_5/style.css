@@ -1,0 +1,50 @@
+    body {
+    font-size: 14px;
+    line-height: 1.42857;
+    background-color: rgb(238, 228, 228);
+    font-family: Inter,sans-serif;
+    color: #a32d2d;
+    font-feature-settings: "ss01" 1,"cv05" 1;
+}
+p {
+    display: inline;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+    div {
+    display: block;
+}
+.row {
+    margin-left: -10px!important;
+    margin-right: -10px!important;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+    position: relative;
+    min-height: 1px;
+    margin-inline-start: 350px;
+}  
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.s{
+    margin-inline-start: 35%;
+}
+.span{
+   font-size: larger;
+   color: #058549;
+}
+.ss
+{
+    margin-inline-start: 45%;
+
+}
