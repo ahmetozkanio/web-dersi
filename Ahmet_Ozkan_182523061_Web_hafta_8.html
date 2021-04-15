@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Html Odevi</title>
+</head>
+
+<style>
+
+    .th{
+        color: rgb(8, 114, 48);
+    }
+    .fieldset{
+        color: rgb(37, 112, 30);
+    }
+    .td{
+        color: rgb(81, 180, 72);
+    }
+    .form{
+        background-color: rgb(245, 237, 237);
+    }
+</style>
+<body>
+<center>    <h1 style="color: cadetblue;">Ahmet Ozkan 182523061 CV Olusturma Sayfasi</h1>
+</center>
+    <form  action="" class="form" >
+        <fieldset class="fieldset" >
+    <legend class="legend">Kisisel Bilgiler</legend>
+
+    <table class="table" >
+
+
+    <tr>
+        <th class="th">Adi</th>
+        <th class="th">:</th>
+        <td class="td">
+            <input type="text" name="name" size="25" />
+        </td>
+
+        <th class="th">Meslek</th>
+        <th class="th">:</th>
+        <td class="td">
+            <input type="text" name="Meslek" size="25" />
+        </td>
+        <th class="th">Adres</th>
+        <th class="th">:</th>
+        <td class="td">
+            <input type="text" name="Adres" size="80" />
+        </td>
+       
+
+
+    </tr>
+    <tr>
+        <th class="th">Soyadi</th>
+        <th class="th">:</th>
+        <td class="td">
+            <input type="text" name="lastname"   size="25" />
+        </td>
+        <th class="th">E-mail</th>
+            <th class="th">:</th>
+            <td class="td">
+                <input type="email" name="email" size="25" />
+            </td>
+            <th class="th">Fotograf</th>
+            <th class="th">:</th>
+            <td class="td">
+                <input type="file" name="Fotograf" size="25" />
+            </td>
+        <tr>
+            <th class="th">Telefon</th>
+            <th class="th">:</th>
+            <td class="td">
+                <input type="tel" name="Telefon" size="25" />
+            </td>
+        </tr>
+
+</tr>
+</table>
+
+
+            <table >
+
+                <tr>
+                
+                    <th class="th">
+                        &nbsp;
+                        Erkek</th>
+                    <th class="th">:</th>
+                    <td class="td">
+                        <input type="radio" name="cinsiyet" value="erkek" size="25" />
+                    </td> 
+                    <th class="th">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                        Bekar</th>
+                    <th class="th">:</th>
+                    <td class="td">
+                        <input type="radio" name="medeni" value="Bekar" size="25" />
+                    </td>
+                    <th class="th" rowspan="2">
+                     
+                        &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                        On Yazi</th>
+                    <th class="th" rowspan="2">:</th>
+                    <td class="td" rowspan="3">
+                        <textarea name="onyazi" id="onyazi" style="max-width: 750px; max-height: 50px;" cols="100" rows="5"></textarea>
+
+            
+                    </td>
+             
+
+
+                </tr>
+                
+                
+                <tr>
+                
+                <th class="th">&nbsp;Bayan</th>
+                <th class="th">:</th>
+                <td class="td">
+                    <input type="radio" name="cinsiyet" value="bayan" size="25" />
+                </td>
+                
+                <th class="th">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Evli</th>
+                <th class="th">:</th>
+                <td class="td">
+                    <input type="radio" name="medeni" value="Evli" size="25" />
+                </td>
+                </tr>
+        </tr>
+    </table>
+<table >
+    
+    <th class="th" colspan="3">Askerlik Durumu</th>
+
+   
+<tr>
+    <td class="td">Yapildi</td>
+    <td class="td">:</td>
+    <td class="td">
+        <input type="radio" name="Askerlik"   size="25" />
+    </td>
+</tr>
+<tr>
+    <td class="td">Tecilli</td>
+    <td  class="td">:</td>
+    <td class="td">
+        <input type="radio" name="Askerlik"   size="25" />
+    </td>
+    <td class="td">
+        <input type="date" name="Askerlikdate"   size="16" />
+    </td>
+</tr>
+<tr>
+    <td class="td">Muaf</td>
+    <td class="td">:</td>
+    <td class="td">
+        <input type="radio" name="Askerlik"   size="25" />
+    </td>
+    <td class="td">    
+         <input type="text" name="Sebebi"  value="sebebi"  size="16" />
+    </td>
+</tr>
+</table>
+  
+
+
+
+
+
+
+
+
+</fieldset>
+
+
+</form>
+
+
+<form  action="" class="form"  ">
+    <fieldset class="fieldset" >
+<legend class="legend">Egitim Bilgileri</legend>
+
+
+
+<table class="table">
+    <th class="th">
+        &nbsp;
+        Egitim</th>
+    <th class="th">:</th>
+    <td class="td">
+        <select name="Egitim" id="Egitim">
+            <option value="Lisans"> Lisans</option>
+            <option value="OnLisans"> On Lisans</option>
+            <option value="master"> Master</option>
+            <option value="pdh"> Phd</option>
+        </select>
+        <select name="Sinif" id="Sinif">
+            <option value="1">1. sinif</option>
+            <option value="2"> 2. sinif</option>
+            <option value="3">3. sinif</option>
+            <option value="4">4. sinif</option>
+        </select>
+    </td>
+<th class="th">    Ort</th>
+<th class="th">:</th>
+    <td><input type="text" size="1" value="3.30"></td>
+
+    <th class="th">Universite</th>
+    <th class="th">:</th>
+    <td class="td">
+        <input type="text" name="Universite" size="35">   
+    </td>
+    <th class="th">Bolum</th>
+    <th class="th">:</th>
+    <td class="td">
+        <input type="text" name="bolum" size="35">   
+    </td>
+
+</table>
+   </fieldset>
+   </form>
+
+
+    <form  action="" class="form" >
+        <fieldset class="fieldset" >
+    <legend class="legend">Beceriler-Kurslar-Faaliyetler</legend>
+    <table>
+    <tr>
+        <th class="th">Kurs-Serfitika Adi</th>
+        <th class="th">:</th>
+        <td class="td">
+            <input type="text" name="Kurs" size="25" />
+        </td>
+
+        <th class="th">Aciklamasi</th>
+        <th class="th">:</th>
+        <td class="td">
+            <textarea name="kursaciklamasi" style="max-height: 75px; max-width: 370px;" id="kursaciklamasi" cols="30" rows="5"></textarea>
+
+        </td>
+        <td>
+    
+            <td class="td">
+            <input type="button" name="kursekle" value="Kurs-Serfitika Ekle" id="kursid">
+            </td>
+        </td>
+        
+
+    </tr>
+    <tr>
+        <th class="th">Beceriler</th>
+        <th class="th">:</th>
+        <td class="td">
+            <input type="text" name="Kurs" size="25" />
+        </td>
+
+      
+        <td>
+    
+            <td class="td">
+            <input type="button" name="Beceriler" value="Beceri Ekle" id="kursid">
+            </td>
+        </td>
+        
+
+    </tr>
+    <tr>
+        <th class="th">Yapilan Faaliyetler</th>
+        <th class="th">:</th>
+        <td class="td">
+            <input type="text" name="Kurs" size="25" />
+        </td>
+
+      
+        <td>
+    
+            <td class="td">
+            <input type="button" name="Faaliyetler" value="Faaliyet Ekle" id="kursid">
+            </td>
+        </td>
+        
+
+    </tr>
+</table>
+</fieldset>
+   </form>
+
+
+   <form  action="" class="form" >
+    <fieldset class="fieldset" >
+<legend class="legend">Projeler</legend>
+
+<table class="table" >
+
+
+    <tr>
+        <th class="th">Proje Adi</th>
+        <th class="th">:</th>
+        <td class="td">
+            <input type="text" name="proje" size="25" />
+        </td>
+
+        <th class="th">Aciklamasi</th>
+        <th class="th">:</th>
+        <td class="td">
+        <textarea name="" id="" style="max-height: 75px; max-width: 370px;" cols="30" rows="10"></textarea>
+        </td>
+        <td>
+    
+            <td class="td">
+            <input type="button" name="Bir baska proje ekle" value="Proje Ekle" id="projeid">
+            </td>
+        </td>
+        
+
+    </tr>
+
+</fieldset>
+</form>
+
+</body>
+
+
+
+</html>
